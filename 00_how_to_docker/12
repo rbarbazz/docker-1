@@ -1,0 +1,2 @@
+# get dst with 'docker volume inspect hatchery'
+docker run --name spawning-pool -e MYSQL_ROOT_PASSWORD=Kerrigan -e MYSQL_DATABASE=zerglings --restart on-failure -d --mount 'type=volume,src=hatchery,dst=/mnt/sda1/var/lib/docker/volumes/hatchery/_data' mysql:5

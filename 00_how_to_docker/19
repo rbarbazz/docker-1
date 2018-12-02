@@ -1,0 +1,1 @@
+mkdir /Users/rbarbazz/Abathur && docker run --name Abathur -d --mount type=bind,source=/Users/rbarbazz/Abathur,target=/root -p 3000:3000 python:2-slim
