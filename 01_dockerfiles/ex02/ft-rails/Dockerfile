@@ -1,7 +1,7 @@
 FROM ruby
 
 RUN apt-get update && apt-get -y dist-upgrade
-RUN apt-get install git nodejs
+RUN apt-get install -y nodejs
 RUN gem install rails bundler
 
 ONBUILD COPY blog /opt/app
@@ -14,4 +14,4 @@ ONBUILD RUN rails db:seed
 #rails new blog
 #docker build -t ft-rails:on-build ft-rails
 #docker build -t son .
-#docker run -it --rm --name rails -p 3000:3000 son
+#docker run -it --rm --name myblog -p 3000:3000 son
