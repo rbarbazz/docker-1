@@ -14,3 +14,4 @@ CMD ["/bin/sh", "teamspeak3-server_linux_amd64/ts3server_minimal_runscript.sh"]
 
 #docker build -t tsi .
 #docker run -it --rm --name ts -p 30033:30033 -p 10011:10011 -p 9987:9987/udp -p 41144:41144 tsi
+#connect from ts on the machine's IP
