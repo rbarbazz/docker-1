@@ -1,2 +1,2 @@
-#has to be executed from the cli, otherwise exports the variables to a temp env
+#source 03
 eval $(docker-machine env Char)
