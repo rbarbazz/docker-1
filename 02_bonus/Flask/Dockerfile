@@ -15,4 +15,4 @@ CMD ["app.py"]
 #Commands to use from this directory
 
 #docker build -t flaski .
-#docker run -it -p 5000:5000 flaski
+#docker run -it -p 5000:5000 --rm flaski

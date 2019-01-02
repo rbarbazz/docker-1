@@ -11,4 +11,4 @@ RUN make
 #Commands to use from the app's directory
 
 #docker build -t clangi .
-#docker run -ti clangi
+#docker run -ti --rm clangi

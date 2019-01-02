@@ -27,10 +27,6 @@ EXPOSE 443
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
 
-#docker-machine stop Char
-#VBoxManage modifyvm Char --cpus 2
-#VBoxManage modifyvm Char --memory 4096
-#docker-machine start Char
 #docker build -t gitlabi .
-#docker run -ti --privileged --name fox -p 80:80 -p 42022:22 -p 443:443 gitlabi
+#docker run -ti --privileged -p 80:80 -p 42022:22 -p 443:443 gitlabi
 #git config --global http.sslVerify false

@@ -15,4 +15,4 @@ RUN yarn install
 #Commands to use from the app's directory
 
 #docker build -t yarni .
-#docker run -ti yarni
+#docker run -ti --rm yarni

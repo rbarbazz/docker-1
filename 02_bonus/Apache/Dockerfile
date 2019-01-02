@@ -11,4 +11,4 @@ CMD ["apachectl", "-D", "FOREGROUND"]
 #Commands to use from the app's directory
 
 #docker build -t apachei .
-#docker run -it -p 80:80 apachei
+#docker run -it --rm -p 80:80 apachei
